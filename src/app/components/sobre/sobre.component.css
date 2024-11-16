@@ -1,0 +1,50 @@
+@media (max-width: 500px) {
+  #resp-ul{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+  }
+    #resp-h1{
+      font-size: 25px;
+    }
+
+    #resp-p{
+      max-width: 260px;
+      line-height: 25px;
+    }
+    #sobre{
+      padding: 1rem 1rem;
+    }
+  
+}
+
+.section-sobre{
+  padding: 4rem 0;
+}
+
+
+.section-sobre ul{
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  list-style: none;
+  align-items: center;
+
+}
+
+.section-sobre h1{
+  font-size: 34px;
+  padding-top: 60%;
+  color: #fff;
+  font-weight: 200;
+}
+
+.section-sobre p{
+  max-width: 500px;
+  line-height: 40px;
+  color: #fff;
+  font-weight: 200;
+}
+

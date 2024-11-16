@@ -1,0 +1,19 @@
+.position{
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.card{
+  height: 200px;
+  width: 200px;
+  transition-duration: 0.2s;
+  color: #fff;
+  border: #fff 1px solid;
+  text-align: center;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
